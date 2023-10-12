@@ -32,12 +32,15 @@ https://medium.com/@artur.araqelyan.0001/developing-terminal-emulator-in-c-9f3d2
 ## Requirements
 
 - GCC
-- GTK+ 3.0 (for the graphical interface)
+- GTK+ 2.0 (for the graphical interface)
 
 ## Compilation
 
 The project can be compiled using the provided Makefile:
-
+there are 3 commands 
+- make : Build the program
+- make run : Run the program
+- make clean : Removes all generated files
 
 ## List of functions and system calls.
 
@@ -52,17 +55,12 @@ The project can be compiled using the provided Makefile:
 * ```strtok``` (man 3 strtok)
 * ```waitpid``` (man 2 waitpid)
 
-## Install
-
-Clone this repo and compile as follow:
-
-> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 ## Usage
 
-Interactive mode: ```./hsh```
+Interactive mode: ```./my_shell```
 
-Non-interactive mode: ```echo "/bin/ls" | ./hsh```
+Non-interactive mode: ```echo "/bin/ls" | ./my_shell```
 
 ### Built-ins
 
@@ -75,40 +73,7 @@ Non-interactive mode: ```echo "/bin/ls" | ./hsh```
 
 ### Examples
 
-* **Run shell in interactive mode:**
 
-```
- $ ./hsh
- simple_prompt$ ls -l
- total 72
--rw-r--r-- 1 root root   771 Nov 16 12:01 execute_args.c
--rwxr-xr-x 1 root root 20192 Nov 16 12:31 hsh
--rw-r--r-- 1 root root   307 Nov 16 08:39 main.c
--rw-r--r-- 1 root root   646 Nov 16 11:59 new_process.c
--rw-r--r-- 1 root root   384 Nov 16 12:28 own_cd.c
--rw-r--r-- 1 root root   338 Nov 16 12:28 own_env.c
--rw-r--r-- 1 root root   284 Nov 16 12:29 own_exit.c
--rw-r--r-- 1 root root   591 Nov 16 12:31 own_help.c
--rw-r--r-- 1 root root   590 Nov 16 09:13 read_line.c
--rw-r--r-- 1 root root   815 Nov 16 12:26 read_stream.c
--rw-r--r-- 1 root root   677 Nov 16 12:27 shell.h
--rw-r--r-- 1 root root   516 Nov 16 08:38 shell_interactive.c
--rw-r--r-- 1 root root   442 Nov 16 12:07 shell_no_interactive.c
--rw-r--r-- 1 root root   848 Nov 16 09:35 split_line.c
-```
-```
- $ /hsh
- simple_prompt$ echo “Hello, World!”
- “Hello, World!”
-```
-* **Run shell in non-interactive mode:**
-
-```
- $ echo "/bin/ls" | ./hsh
- execute_args.c  new_process.c  own_exit.c   read_stream.c        shell_no_interactive.c
-hsh             own_cd.c       own_help.c   shell.h              split_line.c
-main.c          own_env.c      read_line.c  shell_interactive.c
-```
 
 <p>&nbsp</p>
 
