@@ -1,12 +1,10 @@
-# Simple Shell 🐚
-![plot](images/imageshell.png)
+# Terminal Emulator 💻
+
 
 ## Description
 
-Here is the base code for the project/tutorial that I made on how to create a shell using the C programming language. I invite you to follow the link to carry out the project step by step and improve your knowledge of C.
-
-https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e
-
+This project is a custom shell implementation that provides both a command-line interface and an integrated GTK-based user interface.
+https://medium.com/@artur.araqelyan.0001/developing-terminal-emulator-in-c-9f3d2007e7c1
 ## Files
 
 | Name | Description |
@@ -14,16 +12,32 @@ https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e
 | shell.h | Header file program. |
 | main.c | Main function, interactive and non-interactive. |
 | new_procees.c | Function that creates a new process. |
-| own_cd.c | Change the working directory. |
-| own_env.c | Function that prints environment variables. |
-| own_exit.c | Exit shell with a given state. |
-| own_help.c | Function that prints help (get information about a command) |
+| my_cd.c | Change the working directory. |
+| my_env.c | Function that prints environment variables. |
+| my_exit.c | Exit shell with a given state. |
+| my_help.c | Function that prints help (get information about a command) |
 | read_line.c | Read a line from stdin. |
 | read_stream.c | Read a line from the stream. |
-| shell_interactive.c | Run shell interactive mode. |
-| shell_no_interactive.c | Run shell non-interactive mode. |
+| my_shell_interactive.c | Run shell interactive mode. |
+| my_shell_no_interactive.c | Run shell non-interactive mode. |
 | split_line.c | Split a string into tokens. |
 | execute_args.c | Number of builtin functions. |
+## Features
+
+- Custom command-line shell with basic commands.
+- Interactive and non-interactive modes.
+- GTK-based user interface for a more user-friendly experience.
+- Ability to execute system commands and built-in shell commands.
+
+## Requirements
+
+- GCC
+- GTK+ 3.0 (for the graphical interface)
+
+## Compilation
+
+The project can be compiled using the provided Makefile:
+
 
 ## List of functions and system calls.
 
