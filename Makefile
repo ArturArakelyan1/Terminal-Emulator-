@@ -33,8 +33,10 @@ gtk.o: gtk.c
 clean:
 	rm -f $(SHELL_OBJECTS) $(GTK_OBJECTS) $(SHELL_EXECUTABLE) $(GTK_EXECUTABLE)
 
-run:
-	./my_shell_gtk
+run-interface:
+	./$(GTK_EXECUTABLE)
 
-.PHONY: all clean run
-# 
+run-nointerface:
+	./$(SHELL_EXECUTABLE)
+
+.PHONY: all clean run-interface run-nointerface
