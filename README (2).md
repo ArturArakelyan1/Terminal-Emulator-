@@ -39,7 +39,9 @@ https://medium.com/@artur.araqelyan.0001/developing-terminal-emulator-in-c-9f3d2
 The project can be compiled using the provided Makefile:
 there are 3 commands 
 - make : Build the program
-- make run : Run the program
+- make run-interface : Run the program with interface
+- make run-nointerface : Run the program without interface 
+
 - make clean : Removes all generated files
 
 ## List of functions and system calls.
@@ -58,9 +60,9 @@ there are 3 commands
 
 ## Usage
 
-Interactive mode: ```./my_shell```
+Interactive mode without interface : ```make run-nointerface```
 
-Non-interactive mode: ```echo "/bin/ls" | ./my_shell```
+Non-interactive mode with interface : ```make run-nointerface```
 
 ### Built-ins
 
@@ -70,9 +72,6 @@ Non-interactive mode: ```echo "/bin/ls" | ./my_shell```
 * [x] ```exit```
 * [ ] ```setenv```
 * [ ] ```unsetenv```
-
-### Examples
-
 
 
 <p>&nbsp</p>
