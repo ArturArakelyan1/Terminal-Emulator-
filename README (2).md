@@ -79,7 +79,6 @@ Non-interactive mode with interface : ```make run-nointerface```
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/artur-arakelyan-9a4355278/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/artur-arakelyan-9a4355278/" height="30" width="40" /></a>
-<a href="https://twitter.com/santiagobedoa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="https://twitter.com/santiagobedoa" height="30" width="40" /></a>
-<a href="https://medium.com/@santiagobedoa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="https://medium.com/@santiagobedoa" height="30" width="40" /></a>
+<a href="https://medium.com/@artur.araqelyan.0001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="https://medium.com/@artur.araqelyan.0001" height="30" width="40" /></a>
 </p>
 <p></p>
